@@ -17,9 +17,9 @@ var isValid = function(s) {
             }
     
             return !stack.length; // if the stack is empty, it means all brackets are properly terminated
-        }
+        };
     
-};
+
 
 module.exports = { isValid };
 
