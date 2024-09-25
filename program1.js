@@ -3,8 +3,6 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    class Solution {
-        isValid(s) {
             const stack = []; // initializing our stack
             const brackets = { '(': ')', '{': '}', '[': ']' }; // a hash-map to quickly compare opening and closing brackets
     
